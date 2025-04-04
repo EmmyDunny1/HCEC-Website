@@ -53,7 +53,7 @@ export default function Navbar() {
 <section className='flex my-auto transition-all justify-between items-center gap-20'>
     <Image src={HCEC_LOGO} alt="HCEC Logo" className="h-[2.5rem] w-[4rem] object-cover"/>
     <nav className='flex my-auto'>
-        {navItems.map}
+        {navItems.}
         <Link href={""} className='group items-center transition-all relative'>
         <p className=' flex cursor-pointer hover:border-b-2 pb-4 border-pink-400'>
             <span className=''>Home</span>

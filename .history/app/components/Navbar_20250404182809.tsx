@@ -12,39 +12,17 @@ type NavItem = {
 }
 
 const navItems: NavItem[] = [
-    { label: 'HOME',
+    { label: 'Home',
      link: '#', 
      children: [
-{ label: 'Upcoming Events',
-  link: '#', 
+{ label: 'Our History',
+  link: '#',  
 },
-{ label: 'Prayer Requests',
+{ label: 'Our History',
     link: '#',  
   },
-  { label: 'Our Beliefs',
-    link: '#',  
-  },
-
      ]
-    },
-
-    { label: 'ABOUT US',
-        link: '#', 
-        children: [
-   { label: 'Our History',
-     link: '#',  
-   },
-   { label: 'Mission and Vision',
-       link: '#',  
-     },
-     { label: 'Our Beliefs',
-       link: '#',  
-     },
-   
-        ]
-       },
-
-
+    }
 ]
 
 export default function Navbar() {
@@ -53,7 +31,6 @@ export default function Navbar() {
 <section className='flex my-auto transition-all justify-between items-center gap-20'>
     <Image src={HCEC_LOGO} alt="HCEC Logo" className="h-[2.5rem] w-[4rem] object-cover"/>
     <nav className='flex my-auto'>
-        {navItems.map}
         <Link href={""} className='group items-center transition-all relative'>
         <p className=' flex cursor-pointer hover:border-b-2 pb-4 border-pink-400'>
             <span className=''>Home</span>
@@ -62,6 +39,13 @@ export default function Navbar() {
         <div className='flex-col absolute hidden w-auto rounded-lg gap-1 top-10 right-0 group-hover:flex'>Heloooooo</div>
         </Link>
 
+        <Link href={""} className='group items-center transition-all'>
+        <p className=' flex cursor-pointer hover:border-b-2 pb-4 border-pink-400'>
+            <span className=''>About Us</span>
+            {/* dropdown */}
+             </p>
+        <div className='flex-col absolute gap-1 top-10 right-0'></div>
+        </Link>
     </nav>
 </section>
 
