@@ -28,21 +28,21 @@ const navItems: NavItem[] = [
      ]
     },
 
-    { label: 'ABOUT US',
-        link: '#', 
-        children: [
-   { label: 'Our History',
-     link: '#',  
-   },
-   { label: 'Mission and Vision',
-       link: '#',  
-     },
-     { label: 'Our Beliefs',
-       link: '#',  
-     },
+//     { label: 'ABOUT US',
+//         link: '#', 
+//         children: [
+//    { label: 'Our History',
+//      link: '#',  
+//    },
+//    { label: 'Mission and Vision',
+//        link: '#',  
+//      },
+//      { label: 'Our Beliefs',
+//        link: '#',  
+//      },
    
-        ]
-       },
+//         ]
+//        },
 
 
 ]
@@ -52,7 +52,7 @@ export default function Navbar() {
     <div className='flex max-w-7xl w-full mx-auto text-sm bg-[#0C101C] text-white p-4 transition-all'>
 <section className='flex my-auto transition-all justify-between items-center gap-20'>
     <Image src={HCEC_LOGO} alt="HCEC Logo" className="h-[2.5rem] w-[4rem] object-cover"/>
-    <nav className='flex my-auto justify-between items-center gap-10'>
+    <nav className='flex my-auto jus'>
         {navItems.map((d, i) => (
         <Link 
         key={i}
@@ -61,14 +61,7 @@ export default function Navbar() {
             <span className=''>{d.label}</span>
             {/* dropdown */}
              </p>
-        <div className='flex-col absolute hidden w-auto rounded-lg justify-between top-10 right-0 group-hover:flex  bg-amber-50 text-black '>
-                   {d.children?.map((ch, i) => (
-                <Link key={i} href={ch.link?? "#"} className='py-2 px-4 hover:text-pink-400'>
-                   {ch.label}
-                   </Link>
-                   ))}
-  
-        </div>
+        <div className='flex-col absolute hidden w-auto rounded-lg justify-between top-10 right-0 group-hover:flex bg-amber-50 text-black'></div>
         </Link>
         ))}
 

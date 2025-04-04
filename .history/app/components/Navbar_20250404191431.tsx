@@ -52,25 +52,18 @@ export default function Navbar() {
     <div className='flex max-w-7xl w-full mx-auto text-sm bg-[#0C101C] text-white p-4 transition-all'>
 <section className='flex my-auto transition-all justify-between items-center gap-20'>
     <Image src={HCEC_LOGO} alt="HCEC Logo" className="h-[2.5rem] w-[4rem] object-cover"/>
-    <nav className='flex my-auto justify-between items-center gap-10'>
+    <nav className='flex my-auto'>
         {navItems.map((d, i) => (
         <Link 
-        key={i}
-        href={ d.link ?? "#"} className='group items-center transition-all relative'>
+
+        href={ d.li""} className='group items-center transition-all relative'>
         <p className=' flex cursor-pointer hover:border-b-2 pb-4 border-pink-400'>
-            <span className=''>{d.label}</span>
+            <span className=''>Home</span>
             {/* dropdown */}
              </p>
-        <div className='flex-col absolute hidden w-auto rounded-lg justify-between top-10 right-0 group-hover:flex  bg-amber-50 text-black '>
-                   {d.children?.map((ch, i) => (
-                <Link key={i} href={ch.link?? "#"} className='py-2 px-4 hover:text-pink-400'>
-                   {ch.label}
-                   </Link>
-                   ))}
-  
-        </div>
+        <div className='flex-col absolute hidden w-auto rounded-lg gap-1 top-10 right-0 group-hover:flex'>Heloooooo</div>
         </Link>
-        ))}
+        ))};
 
     </nav>
 </section>
