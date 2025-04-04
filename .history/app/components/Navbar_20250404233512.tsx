@@ -39,10 +39,10 @@ const navItems: NavItem[] = [
      },
      { label: 'Our Beliefs',
        link: '#',  
-     }, ]
+     },
+   
+        ]
        },
-
-
        { label: 'MEDIA RESOURCES',
         link: '#', 
         children: [
@@ -52,42 +52,19 @@ const navItems: NavItem[] = [
    { label: 'Video Resources',
        link: '#',  
      },
-     { label: 'Photo Resources',
-       link: '#',
-       },]
-      },
 
-
-       { label: 'CHURCH RESOURCES',
-        link: '#', 
-        children: [
-   { label: '',
-     link: '#',  
-   },
-   { label: '',
-       link: '#',  
-     },]
-      },
-  
-        
-     { label: 'CONTACT US',
-      link: '#', 
-      children: [
- { label: 'Our History',
-   link: '#',  
- },
-]
-     },
    
         ]
-      
+       },
+
+]
 
 export default function Navbar() {
   return (
-    <div className='flex max-w-7xl w-full mx-auto bg-[#0C101C] text-white p-4 transition-all'>
+    <div className='flex max-w-7xl w-full mx-auto text-sm bg-[#0C101C] text-white p-4 transition-all'>
 <section className='flex my-auto transition-all justify-between items-center gap-20'>
     <Image src={HCEC_LOGO} alt="HCEC Logo" className="h-[2.5rem] w-[4rem] object-cover"/>
-    <nav className=' text-[10px] font-semibold flex my-auto justify-between items-center gap-10'>
+    <nav className='flex my-auto justify-between items-center gap-10'>
         {navItems.map((d, i) => (
         <Link 
         key={i}
@@ -96,7 +73,7 @@ export default function Navbar() {
             <span className=''>{d.label}</span>
             {/* dropdown */}
              </p>
-        <div className='flex-col px-[2rem]  items-center absolute hidden justify top-10 right-0 left-0 group-hover:flex  bg-amber-50 text-black w-[13rem] transition-all text-[12px] '>
+        <div className='flex-col absolute hidden rounded-lg justify-between top-10 right-0 group-hover:flex  bg-amber-50 text-black w-[rem] '>
                    {d.children?.map((ch, i) => (
                 <a key={i} href={ch.link?? "#"} className='py-2 px-4 hover:text-pink-400'>
                    {ch.label}

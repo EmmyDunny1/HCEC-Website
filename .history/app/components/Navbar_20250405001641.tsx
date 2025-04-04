@@ -96,7 +96,7 @@ export default function Navbar() {
             <span className=''>{d.label}</span>
             {/* dropdown */}
              </p>
-        <div className='flex-col px-[2rem]  items-center absolute hidden justify top-10 right-0 left-0 group-hover:flex  bg-amber-50 text-black w-[13rem] transition-all text-[12px] '>
+        <div className='flex-col px-[2rem] items-center absolute hidden  justify-between top-10 right-0 left-0 group-hover:flex  bg-amber-50 text-black w-[13rem] transition-all text-[12px]'>
                    {d.children?.map((ch, i) => (
                 <a key={i} href={ch.link?? "#"} className='py-2 px-4 hover:text-pink-400'>
                    {ch.label}
