@@ -85,30 +85,31 @@ const navItems: NavItem[] = [
 export default function Navbar() {
   return (
     <div className='flex max-w-7xl w-full mx-auto bg-[#0C101C] text-white p-4 transition-all'>
-      <section className='flex transition-all justify-between my-auto gap-[25rem]'>
-        <Image src={HCEC_LOGO} alt="HCEC Logo" className="h-[3rem] w-[5rem] object-cover" />
-        <nav className='text-[10px] flex justify-between items-center gap-10'>
-          {navItems.map((d, i) => (
-            <div key={i} className='group relative'>
-              <Link href={d.link ?? "#"} className='group items-center transition-all relative'>
-                <p className='flex cursor-pointer'>
-                  <span className='font-semibold'>{d.label}</span>
-                </p>
-              </Link>
-              {/* Dropdown */}
-              {d.children && (
-                <div className='dropdown absolute hidden group-hover:flex flex-col px-[2rem] top-10 bg-amber-50 text-black w-[13rem] transition-all text-[12px] border-t-2 border-pink-400'>
-                  {d.children.map((ch, j) => (
-                    <a key={j} href={ch.link ?? "#"} className='py-2 px-4 hover:text-pink-400'>
-                      {ch.label}
-                    </a>
-                  ))}
-                </div>
-              )}
-            </div>
-          ))}
-        </nav>
-      </section>
+<section className='flex transition-all justify-between my-auto gap-[25rem]'>
+    <Image src={HCEC_LOGO} alt="HCEC Logo" className="h-[2.5rem] w-[4rem] object-cover"/>
+    <nav className=' text-[10px] font-semibold flex justify-between items-center gap-10'>
+        {navItems.map((d, i) => (
+        <Link 
+        key={i}
+        href={ d.link ?? "#"} className='group items-center transition-all relative'>
+        <p className=' flex cursor-pointer '>
+            <span className=''>{d.label}</span>
+            {/* dropdown */}
+             </p>
+        <div className='flex-col px-[2rem]  justify-items-start absolute hidden justify top-10 right-0 left-0 group-hover:flex  bg-amber-50 text-black w-[13rem] transition-all text-[12px] border-t-2 border-pink-400  hover:border-pink-400'>
+                   {d.children?.map((ch, i) => (
+                <a key={i} href={ch.link?? "#"} className='py-2 px-4 hover:text-pink-400 '>
+                   {ch.label}
+                   </a>
+                   ))}
+  
+        </div>
+        </Link>
+        ))}
+
+    </nav>
+</section>
+
     </div>
   )
 }

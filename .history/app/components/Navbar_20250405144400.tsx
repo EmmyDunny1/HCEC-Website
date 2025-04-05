@@ -97,7 +97,7 @@ export default function Navbar() {
               </Link>
               {/* Dropdown */}
               {d.children && (
-                <div className='dropdown absolute hidden group-hover:flex flex-col px-[2rem] top-10 bg-amber-50 text-black w-[13rem] transition-all text-[12px] border-t-2 border-pink-400'>
+                <div className='dropdown hidden group-hover:flex flex-col px-[2rem] absolute top-10 bg-amber-50 text-black w-[13rem] transition-all text-[12px] border-t-2 border-pink-400'>
                   {d.children.map((ch, j) => (
                     <a key={j} href={ch.link ?? "#"} className='py-2 px-4 hover:text-pink-400'>
                       {ch.label}

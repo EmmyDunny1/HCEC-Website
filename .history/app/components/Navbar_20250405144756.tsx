@@ -90,14 +90,14 @@ export default function Navbar() {
         <nav className='text-[10px] flex justify-between items-center gap-10'>
           {navItems.map((d, i) => (
             <div key={i} className='group relative'>
-              <Link href={d.link ?? "#"} className='group items-center transition-all relative'>
+              <Link href={d.link ?? "#"} className='group group-hover items-center transition-all relative'>
                 <p className='flex cursor-pointer'>
                   <span className='font-semibold'>{d.label}</span>
                 </p>
               </Link>
               {/* Dropdown */}
               {d.children && (
-                <div className='dropdown absolute hidden group-hover:flex flex-col px-[2rem] top-10 bg-amber-50 text-black w-[13rem] transition-all text-[12px] border-t-2 border-pink-400'>
+                <div className='dropdown hidden group-hover:flex flex-col px-[2rem] absolute top-10 bg-amber-50 text-black w-[13rem] transition-all text-[12px] border-t-2 border-pink-400'>
                   {d.children.map((ch, j) => (
                     <a key={j} href={ch.link ?? "#"} className='py-2 px-4 hover:text-pink-400'>
                       {ch.label}
