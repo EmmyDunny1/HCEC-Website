@@ -1,0 +1,8 @@
+import React from 'react'
+
+
+export default function PrayerRequests() {
+  return (
+    <div>PrayerRequests</div>
+  )
+}
