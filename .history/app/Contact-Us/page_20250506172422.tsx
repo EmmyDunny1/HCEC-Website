@@ -18,13 +18,13 @@ export default function ContactUs() {
             <tr className='border border-black'>
               <th className='border-x border-black px-4 py-2'>S/NO</th>
               <th className='border-x border-black px-10 py-2'>DISTRICT</th>
-              <th className='border-x border-black px-4 py-2'>DISTRICT HEADQUARTERS ADDRESS</th>
+              <th className='border-x border-black px-[] py-2'>DISTRICT HEADQUARTERS ADDRESS</th>
               <th className='border-x border-black px-4 py-2'>DISTRICT OVERSEERS</th>
               <th className='border-x border-black px-4 py-2'>PHONE NO</th>
             </tr>
           </thead>
           {/* Table Body */}
-             <tbody><tr className='py-4 '>
+             <tbody><tr>
                     <td>1.</td>
                     <td>College Crescent</td>
                     <td>6, Adekunle Street, Behind Christ The Redeemer Secondary School, Molete, Ibadan</td>

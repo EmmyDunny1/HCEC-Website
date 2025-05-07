@@ -24,7 +24,7 @@ export default function ContactUs() {
             </tr>
           </thead>
           {/* Table Body */}
-             <tbody><tr className='py-4 '>
+             <tbody><tr >
                     <td>1.</td>
                     <td>College Crescent</td>
                     <td>6, Adekunle Street, Behind Christ The Redeemer Secondary School, Molete, Ibadan</td>

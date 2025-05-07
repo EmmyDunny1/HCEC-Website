@@ -5,7 +5,7 @@ import React from 'react'
 
 export default function ContactUs() {
   return (
-    <div className='bg-blue-300 px-10 justify-center p-10'>
+    <div className='bg-blue-300 px-10 justify-center'>
         
         <h2>Worship Centers By Regions</h2>
         
@@ -13,18 +13,14 @@ export default function ContactUs() {
         
         <div>
             <table className=''>
-                {/* Table Header */}
-          <thead>
-            <tr className='border border-black'>
-              <th className='border-x border-black px-4 py-2'>S/NO</th>
-              <th className='border-x border-black px-10 py-2'>DISTRICT</th>
-              <th className='border-x border-black px-4 py-2'>DISTRICT HEADQUARTERS ADDRESS</th>
-              <th className='border-x border-black px-4 py-2'>DISTRICT OVERSEERS</th>
-              <th className='border-x border-black px-4 py-2'>PHONE NO</th>
-            </tr>
-          </thead>
-          {/* Table Body */}
-             <tbody><tr className='py-4 '>
+                <tr className='border-r-1'>
+                    <th>S/NO</th>
+                    <th>DISTRICT</th>
+                    <th>DISTRICT HEADQUATERS ADDRESS</th>
+                    <th>DISTRICT OVERSEERS</th>
+                    <th>PHONE NO</th>
+                </tr>
+                <tr>
                     <td>1.</td>
                     <td>College Crescent</td>
                     <td>6, Adekunle Street, Behind Christ The Redeemer Secondary School, Molete, Ibadan</td>
@@ -139,68 +135,13 @@ export default function ContactUs() {
                     <td>+234 7033824133</td>
                 </tr>
                 <tr>
-                    <td>18.</td>
-                    <td>Oke-lla, Ado Ekiti</td>
-                    <td>No. 1, Ilupeju Avenue, Odo-Ado, Ado-Ekiti</td>
-                    <td>Pastor S. O. Adedipe</td>
-                    <td>+234 8033846123</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
                 </tr>
-                <tr>
-                    <td>19.</td>
-                    <td>Ilawe - Ekiti</td>
-                    <td>52, Afunremu Street, Okebedo Quarter, Ilawe-Ekiti</td>
-                    <td>Pastor E. O. Bolaji</td>
-                    <td>+234 8038466373</td>
-                </tr><tr>
-                    <td>20.</td>
-                    <td>Oke-Ijebu, Akure</td>
-                    <td>105, Oke Ijebu Street, Beside Matrix Petrol Station, Akure</td>
-                    <td>Evangelist Tope Olasusi</td>
-                    <td>+234 8033925096</td>
-                </tr><tr>
-                    <td>21.</td>
-                    <td>Oke-Aro, Akure</td>
-                    <td>Behind Police Station, B Division, Oke-Aro, Akure </td>
-                    <td>Pastor Festus Alabi</td>
-                    <td>+234 8033639968</td>
-                </tr><tr>
-                    <td>22.</td>
-                    <td>Kwara</td>
-                    <td>35, Ejiba Street, Off Stadium Road, Ilorin</td>
-                    <td>Deacon Bamidele Oguntimehin</td>
-                    <td>+234 8035828510</td>
-                </tr><tr>
-                    <td>23.</td>
-                    <td>Osogbo</td>
-                    <td>Dada Estate, Behind MTN Office, Osogbo</td>
-                    <td>Pastor Festus Oladele</td>
-                    <td>+234 7032045312</td>
-                </tr><tr>
-                    <td>24.</td>
-                    <td>Owo</td>
-                    <td>15, Oke Street, Iselu Owo</td>
-                    <td>Pastor Steve Adekunle</td>
-                    <td>+234 8051501228</td>
-                </tr><tr>
-                    <td>25.</td>
-                    <td>Ikere-Ekiti</td>
-                    <td>Odo-Oja Street, Ikere-Ekiti</td>
-                    <td>Pastor S. A. Adewusi</td>
-                    <td>+234 8035148522</td>
-                </tr><tr>
-                    <td>26.</td>
-                    <td>Boluwaduro</td>
-                    <td>Zone 8, Boluwaduro Street, Off Onaala, Ado-Ekiti</td>
-                    <td>Pastor Agbaje Ayorinde</td>
-                    <td>+234 8133217099</td>
-                </tr><tr>
-                    <td>27.</td>
-                    <td>Materi</td>
-                    <td>His Coming Evangelical Church, Materi</td>
-                    <td>Pastor Mark Tchanete</td>
-                    <td>+22963825232</td>
-                </tr>
-                </tbody>
+                
             </table>
         </div>
         </div>
