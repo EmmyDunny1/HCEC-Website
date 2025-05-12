@@ -9,14 +9,12 @@ export default function ContactUs() {
       <h2>Worship Centers By Regions</h2>
       <p>To Fellowship With Us At any of Our Centers</p>
 
-      <div
-  className='bg-cover bg-center h-[400px] w-full'
-  style={{ backgroundImage: `url(${require('../assets/convention.jpg')})` }}
->
-  <div>
-    <Image src={HCEC_LOGO} alt="HCEC Logo" className="h-[3rem] w-[5rem] object-cover" />
-  </div>
-</div>
+     <div>
+        <div>
+          <Image src={HCEC_LOGO} alt="HCEC Logo" className="h-[3rem] w-[5rem] object-cover" />
+          
+        </div>
+     </div>
 
       <div className='overflow-x-auto mt-10 border-white rounded-2xl shadow-lg shadow-gray-500/60'>
         <table className='table-auto border-collapse w-full'>

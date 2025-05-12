@@ -10,8 +10,8 @@ export default function ContactUs() {
       <p>To Fellowship With Us At any of Our Centers</p>
 
       <div
-  className='bg-cover bg-center h-[400px] w-full'
-  style={{ backgroundImage: `url(${require('../assets/convention.jpg')})` }}
+  className='bg-cover bg-center h-[00px] w-full'
+  style={{ backgroundImage: `url(${require('../assets/worship.jpg')})` }}
 >
   <div>
     <Image src={HCEC_LOGO} alt="HCEC Logo" className="h-[3rem] w-[5rem] object-cover" />
