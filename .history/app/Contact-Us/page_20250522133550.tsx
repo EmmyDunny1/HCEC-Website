@@ -2,22 +2,20 @@
 import React from 'react'
 import Image from 'next/image'
 import HCEC_LOGO from '../assets/HCEC_LOGO.png'
-import worship from '../assets/worship.jpg'
 
 export default function ContactUs() {
   return (
     <div className='text-white px-10 justify-center bg-[#0C101C] p-10 flex flex-col'>
-      <h2></h2>
-      <p></p>
-      
-      <div className="relative w-full h-[20rem] overflow-hidden">
-      <Image src={worship} alt="Your Image" className="w-full h-full object-cover blur-[2px]" />
-      <div className="absolute text-shadow-black shadow-7xl inset-0 flex flex-col justify-center items-center text-white ">
-       <div><Image src={HCEC_LOGO} alt='Church logo' className='h-[6rem] w-[10rem]' /> </div>
-        <h1 className="text-6xl font-bold">Worship With Us Today</h1>
-        <p className="text-2xl font-sm mt-2 p-2 backdrop-blur-xl border-1 border-dashed">Our Church Locations in Various Regions are Below</p>
-      </div>
-    </div>
+      <h2>Worship Centers By Regions</h2>
+      <p>To Fellowship With Us At any of Our Centers</p>
+  <div
+  className='bg-cover bg-center h-[400px] w-full'
+  style={{ backgroundImage: `url(${require('../Convention.jpg')})` }}
+>
+  <div>
+    <Image src={HCEC_LOGO} alt="HCEC Logo" className="h-[3rem] w-[5rem] object-cover" />
+  </div>
+</div>
 
       <div className='overflow-x-auto mt-10 border-white rounded-2xl shadow-lg shadow-gray-500/60'>
         <table className='table-auto border-collapse w-full'>

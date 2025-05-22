@@ -12,7 +12,6 @@ export default function OurHistory() {
           <Image src={HCEC_LOGO} alt="HCEC Logo" className="h-[3rem] w-[5rem] object-cover" />
         </div>
         <h1>OUR HISTORY</h1>
-        <p></p>
       </div>
     </div>
   );

@@ -10,12 +10,11 @@ export default function ContactUs() {
       <h2></h2>
       <p></p>
       
-      <div className="relative w-full h-[20rem] overflow-hidden">
-      <Image src={worship} alt="Your Image" className="w-full h-full object-cover blur-[2px]" />
-      <div className="absolute text-shadow-black shadow-7xl inset-0 flex flex-col justify-center items-center text-white ">
-       <div><Image src={HCEC_LOGO} alt='Church logo' className='h-[6rem] w-[10rem]' /> </div>
-        <h1 className="text-6xl font-bold">Worship With Us Today</h1>
-        <p className="text-2xl font-sm mt-2 p-2 backdrop-blur-xl border-1 border-dashed">Our Church Locations in Various Regions are Below</p>
+      <div className="relative w-full h-screen">
+      <Image src={worship} alt="Your Image" className="w-full h-full object-cover blur-m" />
+      <div className="absolute inset-0 flex flex-col justify-center items-center text-white">
+        <h1 className="text-4xl font-bold">Worship Centers By Regions</h1>
+        <p className="text-lg">To Fellowship With Us At any of Our Centers</p>
       </div>
     </div>
 
