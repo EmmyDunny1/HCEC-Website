@@ -18,11 +18,11 @@ export default function Footer() {
           
           <div>
             <p className="font-semibold mb-4">FOLLOW US</p>
-            <div className="flex justify-center space-x-4 text-xl transition-all duration-300">
-              <a href="#" aria-label="Facebook" className="hover:text-blue-400 hover:border-2 rounded-md hover:p-1"><FaFacebookF /></a>
-              <a href="#" aria-label="Twitter" className="hover:text-blue-400 hover:border-2 rounded-md hover:p-1"><FaTwitter /></a>
-              <a href="#" aria-label="Instagram" className="hover:text-pink-400 hover:border-2 rounded-md hover:p-1 hover:border-red-500"><FaInstagram /></a>
-              <a href="#" aria-label="YouTube" className="hover:text-red-500 hover:border-b-2 hover:border-2 rounded-md hover:p-1 hover:border-red-500"><FaYoutube /></a>
+            <div className="flex justify-center space-x-4 text-xl">
+              <a href="#" aria-label="Facebook" className="hover:text-blue-400 hover:border-2 rounded-md hover:p-2"><FaFacebookF /></a>
+              <a href="#" aria-label="Twitter" className="hover:text-blue-400 hover:border-2 pb-2"><FaTwitter /></a>
+              <a href="#" aria-label="Instagram" className="hover:text-pink-400 hover:border-b-2 hover:border-red-500 pb-2"><FaInstagram /></a>
+              <a href="#" aria-label="YouTube" className="hover:text-red-500 hover:border-b-2 hover:border-red-500 pb-2"><FaYoutube /></a>
             </div>
           </div>
         </div>

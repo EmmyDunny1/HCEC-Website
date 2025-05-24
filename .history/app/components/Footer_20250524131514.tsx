@@ -8,27 +8,26 @@ export default function Footer() {
       <div className="container mx-auto px-4 flex flex-col items-center justify-center gap-8 text-center">
         {/* Logo and Socials */}
         <div className="flex flex-col items-center">
-         <a href="#"><Image
+          <Image
             src="/assets/HCEC_LOGO.png"
             alt="HCEC Logo"
             width={120}
             height={60}
             className="mb-4"
-          /></a>
-          
+          />
           <div>
-            <p className="font-semibold mb-4">FOLLOW US</p>
-            <div className="flex justify-center space-x-4 text-xl transition-all duration-300">
-              <a href="#" aria-label="Facebook" className="hover:text-blue-400 hover:border-2 rounded-md hover:p-1"><FaFacebookF /></a>
-              <a href="#" aria-label="Twitter" className="hover:text-blue-400 hover:border-2 rounded-md hover:p-1"><FaTwitter /></a>
-              <a href="#" aria-label="Instagram" className="hover:text-pink-400 hover:border-2 rounded-md hover:p-1 hover:border-red-500"><FaInstagram /></a>
-              <a href="#" aria-label="YouTube" className="hover:text-red-500 hover:border-b-2 hover:border-2 rounded-md hover:p-1 hover:border-red-500"><FaYoutube /></a>
+            <p className="font-semibold mb-4">FOLLOW <US></US></p>
+            <div className="flex justify-center space-x-4 text-xl">
+              <a href="#" aria-label="Facebook" className="hover:text-blue-400"><FaFacebookF /></a>
+              <a href="#" aria-label="Twitter" className="hover:text-blue-300"><FaTwitter /></a>
+              <a href="#" aria-label="Instagram" className="hover:text-pink-400"><FaInstagram /></a>
+              <a href="#" aria-label="YouTube" className="hover:text-red-500"><FaYoutube /></a>
             </div>
           </div>
         </div>
         {/* Copyright */}
         <div className="mt-8">
-          <p className="text-md">
+          <p className="text-sm">
             © {new Date().getFullYear()} His Coming Evangelical Church. All rights reserved.
           </p>
         </div>

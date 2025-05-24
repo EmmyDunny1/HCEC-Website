@@ -18,7 +18,7 @@ export default function Footer() {
           
           <div>
             <p className="font-semibold mb-4">FOLLOW US</p>
-            <div className="flex justify-center space-x-4 text-xl transition-all duration-300">
+            <div className="flex justify-center space-x-4 text-xl transition-all dur">
               <a href="#" aria-label="Facebook" className="hover:text-blue-400 hover:border-2 rounded-md hover:p-1"><FaFacebookF /></a>
               <a href="#" aria-label="Twitter" className="hover:text-blue-400 hover:border-2 rounded-md hover:p-1"><FaTwitter /></a>
               <a href="#" aria-label="Instagram" className="hover:text-pink-400 hover:border-2 rounded-md hover:p-1 hover:border-red-500"><FaInstagram /></a>
