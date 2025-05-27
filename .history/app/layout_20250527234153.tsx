@@ -24,9 +24,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-    <head>
-      <link rel="icon" href="/public/assets/HCEC_LOGO.png" />
-    </head>
+    hea
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >

@@ -31,14 +31,10 @@ export default function Navbar({
   return (
     <div className="bg-[#0C101C]">
       <div className="fixed top-0 bg-gradient-to-r from-[#0C101C] to-red-500 flex max-w-7xl w-full mx-auto text-white p-4 transition-all border-b-1 rounded-b-4xl shadow-2xl hover:border-0">
-        <section className="flex transition-all my-auto items-center gap-[19.5rem] md:gap-[0rem]">
+        <section className="flex transition-all justify-between my-auto items-center gap-[19.5rem] md:gap-[10rem]">
           <Image src="/assets/HCEC_LOGO.png" width={80} height={48} alt="HCEC Logo" className="h-[3rem] w-[5rem] object-cover" />
-          <span className="hidden md:inline font-bold text-lg uppercase ">
-  {churchName.split("Evangelical")[0]}
-  <br />
-  Evangelical{churchName.split("Evangelical")[1] || ""}
-</span>
-          <nav className="text-[10px] hidden md:flex md:ml-[12rem] justify-between items-center gap-10">
+          <span className="hidden md:flex font-bold text-lg ">{churchName}</span>
+          <nav className="text-[10px] hidden md:flex justify-between items-center gap-10">
             {navItems.map((d, i) => (
               <div key={i} className="group relative">
                 <Link href={d.link ?? "#"} className="group items-center transition-all relative">
