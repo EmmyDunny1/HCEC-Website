@@ -1,24 +1,24 @@
 "use client";
 
-import React from "react"
+import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { BiMenuAltRight } from "react-icons/bi";
 
 type NavItem = {
-  label?: string;
-  link?: string;
-  children?: NavItem[];
+  label: string;
+  link: string;
 };
 
-const navItems: NavItem[] = [
-  { label: "HOME", link: "#", children: [{ label: "Upcoming Events", link: "Home-page/Upcoming-Programs" }, { label: "Prayer Requests", link: "Home-page/Prayer-Request" },] },
-  { label: "ABOUT US", link: "#", children: [{ label: "Our History", link: "About-Us/our-history" }, { label: "Mission and Vision", link: "About-Us/mission-and-vision" }, { label: "Our Beliefs", link: "About-Us/our-beliefs" }] },
-  { label: "MEDIA RESOURCES", link: "#", children: [{ label: "Audio Resources", link: "#" }, { label: "Video Resources", link: "#" }, { label: "Photo Resources", link: "#" }] },
-  { label: "CHURCH RESOURCES", link: "#", children: [{ label: "Gospel Hymnal", link: "#" }, { label: "Honey From The Rock", link: "#" }, { label: "Daily Honey", link: "#" }] },
-  { label: "CONTACT US", link: "/Contact-Us/Our-Locations" },
-];
+type NavbarProps = {
+  logoSrc?: string;
+  churchName?: string;
+  navItems: NavItem[];
+};
 
+export default function Navbar({ logoSrc = "/assets/HCEC_LOGO.png", churchName = "His Coming Evangelical Church", navItems }: NavbarProps) {
+  return (
+    <div className="bg-[#0C101C]">
 export default function Navbar() {
   return (
     <div className="bg-[#0C101C]">

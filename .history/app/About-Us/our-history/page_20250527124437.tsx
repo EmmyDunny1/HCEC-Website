@@ -9,15 +9,16 @@ export default function OurHistory() {
       {/* History Section */}
       <div className="flex-1 flex justify-center items-start py-12 px-4 md:px-12">
         <div className="bg-white shadow-lg rounded-lg p-8 w-full max-w-2xl">
-          <div className="flex flex-col items-center justify-center mb-6 gap-2">
+          <div className="flex items-center justify-center mb-6 gap-4">
+           
             <Image
               src="/assets/HCEC_LOGO.png"
               alt="HCEC Logo"
-              width={80}
-              height={50}
-              className="object-contain mb-2"
+              width={60}
+              height={}
+              className="object-contain"
             />
-            <h1 className="text-4xl font-bold text-[#0C101C] text-center">OUR HISTORY</h1>
+             <h1 className="text-4xl font-bold text-[#0C101C] text-center">OUR HISTORY</h1>
           </div>
           <p className="text-gray-700 text-lg leading-relaxed">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque euismod, nisi eu consectetur consectetur, nisl nisi consectetur nisi, eu consectetur nisl nisi euismod nisi. 
@@ -38,12 +39,12 @@ export default function OurHistory() {
       {/* Fixed Image Section */}
       <div className="relative w-full md:w-[400px] flex-shrink-0">
         <div className="md:fixed md:top-0 md:right-0 md:h-screen md:w-[400px] flex flex-col items-center justify-center bg-white shadow-lg p-6">
-          <div className="w-full h-[300px] relative mb-4 mt-6 rounded-lg overflow-hidden">
+          <div className="w-full h-[350px] relative mb-4">
             <Image
-              src="/assets/late-founder.jpg"
+              src="/assets/late-founder.jpg" // Replace with the actual path to the Late-Founder image
               alt="Rev Samson Adebayo Ogundeji"
-              fill
-              style={{ objectFit: "contain", objectPosition: "top" }}
+              layout="fill"
+              objectFit="cover"
               className="rounded-lg"
             />
           </div>
