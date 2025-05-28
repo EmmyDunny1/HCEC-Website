@@ -4,7 +4,6 @@ import Image from 'next/image'
 import Footer from '@/app/components/Footer'
 import ContactLnks from '@/app/Contact-Us/ContactLinks/ContactLinks'
 import { FaFacebookF, FaTwitter, FaInstagram, FaYoutube } from 'react-icons/fa';
-import ContactLinks from '@/app/Contact-Us/ContactLinks/ContactLinks'
 
 
 
@@ -12,12 +11,12 @@ export default function OurLocations() {
   return (
 
     <div>
-      <ContactLinks/>
+      
     <div className='text-white  justify-center bg-[#0C101C]  flex flex-col'>
       <h2></h2>
       <p></p>
       
-      <div className="relative w-full h-[25rem] overflow">
+      <div className="relative w-full h-[20rem] overflow-hidden">
   <Image
     src='/assets/worship.jpg'
     alt="Your Image"
@@ -25,7 +24,7 @@ export default function OurLocations() {
     className="object-cover blur-[2px]"
     style={{ zIndex: 0 }}
   />
-  <div className="absolute text-shadow-black shadow-7xl inset-0 flex flex-col justify-center items-center  text-white ">
+  <div className="absolute text-shadow-black shadow-7xl inset-0 flex flex-col justify-center items-center text-white ">
     <div>
       <Image src='/assets/HCEC_LOGO.png' width={80} height={48} alt='Church logo' className='h-[6rem] w-[10rem]' />
     </div>
@@ -33,7 +32,7 @@ export default function OurLocations() {
     <p className="text-2xl font-sm mt-2 p-2 backdrop-blur-xl border-1 border-dashed">Our Church Locations in Various Regions are Below</p>
   </div>
 </div>
-<div className='px-10'>
+<div className='p'>
       <div className='overflow-x-auto mt-10 border-white rounded-2xl shadow-lg shadow-gray-500/60'>
         <table className='table-auto border-collapse w-full'>
           {/* Table Header */}
@@ -244,7 +243,7 @@ export default function OurLocations() {
       </div>
       </div>
     </div>
-    
+    <ContactLnks />
     <Footer />
     </div>
   )

@@ -25,11 +25,11 @@ export default function OurLocations() {
     className="object-cover blur-[2px]"
     style={{ zIndex: 0 }}
   />
-  <div className="absolute text-shadow-black shadow-7xl inset-0 flex flex-col justify-center items-center  text-white ">
+  <div className="absolute text-shadow-black shadow-7xl inset-0 flex flex-col justify-center items-center text-white ">
     <div>
       <Image src='/assets/HCEC_LOGO.png' width={80} height={48} alt='Church logo' className='h-[6rem] w-[10rem]' />
     </div>
-    <h1 className="text-6xl font-bold">Worship With Us Today</h1>
+    <h1 className="text-6xl  font-bold">Worship With Us Today</h1>
     <p className="text-2xl font-sm mt-2 p-2 backdrop-blur-xl border-1 border-dashed">Our Church Locations in Various Regions are Below</p>
   </div>
 </div>

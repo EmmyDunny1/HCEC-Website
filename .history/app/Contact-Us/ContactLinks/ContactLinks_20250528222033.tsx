@@ -13,7 +13,7 @@ export default function ContactLinks() {
   const pathname = usePathname();
 
   return (
-    <nav className="w-full bg-[#0C101C] border-b-1 border-white shadow-md py-4 px-2 flex justify-center">
+    <nav className="w-full bg-[#0C101C]/ shadow-md py-4 px-2 flex justify-center">
       <ul className="flex gap-6 md:gap-10">
         {contactNavLinks.map((item) => (
           <li key={item.label}>

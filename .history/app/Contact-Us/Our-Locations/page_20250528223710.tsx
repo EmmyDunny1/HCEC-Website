@@ -25,7 +25,7 @@ export default function OurLocations() {
     className="object-cover blur-[2px]"
     style={{ zIndex: 0 }}
   />
-  <div className="absolute text-shadow-black shadow-7xl inset-0 flex flex-col justify-center items-center  text-white ">
+  <div className="absolute text-shadow-black shadow-7xl inset-0 flex flex-col justify-center items-center my-auto text-white ">
     <div>
       <Image src='/assets/HCEC_LOGO.png' width={80} height={48} alt='Church logo' className='h-[6rem] w-[10rem]' />
     </div>
