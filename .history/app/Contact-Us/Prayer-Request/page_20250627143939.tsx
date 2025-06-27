@@ -38,7 +38,7 @@ export default function PrayerRequest() {
   };
 
   return (
-    <div className="p-10 bg-gray-400 shadow-2xl min-h-screen"
+    <div className="my-8 bg-white shadow-lg min-h-screen"
       style={{
         backgroundImage: "url('/prayer.jpg')",
         backgroundSize: "cover",
@@ -47,7 +47,7 @@ export default function PrayerRequest() {
     >
       <div className="grid grid-cols-1 md:grid-cols-2 bg-black/60 min-h-screen">
         {/* Left: Red Info Section */}
-        <div className="bg-gray-700 text-white p-8 flex flex-col justify-center">
+        <div className="bg-gray-700/95 text-white p-8 flex flex-col justify-center">
           <h2 className="text-3xl font-bold mb-4">Prayer Request</h2>
           <p className="mb-6">
             You can now conveniently submit your prayer requests online, by filling the form or through mail,

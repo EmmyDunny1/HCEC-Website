@@ -38,7 +38,7 @@ export default function PrayerRequest() {
   };
 
   return (
-    <div className="p-10 bg-gray-400 shadow-2xl min-h-screen"
+    <div className=" bg-white shadow-lg min-h-screen"
       style={{
         backgroundImage: "url('/prayer.jpg')",
         backgroundSize: "cover",

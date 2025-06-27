@@ -15,11 +15,8 @@ export default function Homepage() {
     
     Therefore go and make disciples of all nations, baptizing them in the name of the Father and of the Son and of the Holy Spirit</p>
 
-<div className='hover:'>    <div className='relative h-[10rem] w-[10rem] bg-green-500 z-10 '></div>
-    <div className='absolute h-[10rem] w-[10rem] bg-red-500 mt-[-10rem] hover:transition-transform  hover:translate-y-[10px] hover:translate-x-[-10px]
-     '></div>
-</div>
-
+    div
+    
     <UpcomingPrograms />
     <PrayerRequests/>
     </div>
