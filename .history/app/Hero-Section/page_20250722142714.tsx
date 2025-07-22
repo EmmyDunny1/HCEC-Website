@@ -4,7 +4,7 @@ export default function HeroSection() {
   return (
     <div className="flex flex-col items-center">
       {/* Top Text Box */}
-      <div className="bg-white shadow-xl drop-shadow-2xl p-4 rounded-md h-[13rem] w-[22rem] mb-[-7.5rem] z-10">
+      <div className="bg-white shadow-xl shadow p-4 rounded-md h-[13rem] w-[22rem] mb-[-7.5rem] z-10">
         <div> 
           <h1 className="text-center text-xl font-bold mb-4 p-2 border-b-2">OUR FOCUS</h1>
         <p className="text-center font-semibold">Kingdom of Heaven is our vision, self sacrifice is our watchward, holiness is our stand, divine prosperity is our reward</p>
