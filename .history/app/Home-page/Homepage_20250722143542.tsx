@@ -21,8 +21,9 @@ export default function Homepage() {
     <HeroSection/> 
   <div> 
     <UpcomingPrograms />
-    
+    <div className='mb-5'>
     <PrayerRequest />
+    </div>
     </div>  
     
     </div>

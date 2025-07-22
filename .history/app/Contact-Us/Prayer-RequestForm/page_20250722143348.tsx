@@ -40,7 +40,7 @@ export default function PrayerRequestForm() {
 
   return (
 
-    <div>   <div className="md:px-10 md:pt-[6rem] md:pb-5 shadow-lg min-h-screen"
+    <div>   <div className="md:px-10 md:pt-[6rem] md:pb-5  shadow-lg min-h-screen"
 
     >
       <div className="grid grid-cols-1 md:grid-cols-2 bg-black/60 min-h-screen">

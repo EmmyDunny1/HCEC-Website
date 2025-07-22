@@ -30,7 +30,7 @@ export default function Navbar({
 }: NavbarProps) {
   return (
     <div className="bg-[#0C101C]">
-      <div className="fixed top-0 bg-gradient-to-r from-[#0C101C] to-red-500 flex max-w-7xl w-full mx-auto text-white p-4 transition-all border-b-1 rounded-b-4xl shadow-2xl hover:border-0 z-10">
+      <div className="fixed top-0 bg-gradient-to-r from-[#0C101C] to-red-500 flex max-w-7xl w-full mx-auto text-white p-4 transition-all border-b-1 rounded-b-4xl shadow-2xl hover:border-0 relativ z-10">
         <section className="flex transition-all my-auto items-center gap-[19.5rem] md:gap-[0rem]">
           <Image src="/assets/HCEC_LOGO.png" width={80} height={48} alt="HCEC Logo" className="h-[3rem] w-[5rem] object-cover" />
           <span className="hidden md:inline font-bold text-lg uppercase ">

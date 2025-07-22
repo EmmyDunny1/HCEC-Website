@@ -40,10 +40,10 @@ export default function PrayerRequestForm() {
 
   return (
 
-    <div>   <div className="md:px-10 md:pt-[6rem] md:pb-5 shadow-lg min-h-screen"
+    <div>   <div className="md:px-10 md:pt-[6rem] md:pb-5 bg-gray-800 shadow-lg min-h-screen"
 
     >
-      <div className="grid grid-cols-1 md:grid-cols-2 bg-black/60 min-h-screen">
+      <div className="grid grid-cols-1 md:grid-cols-2  min-h-screen">
         {/* Left: Red Info Section */}
         <div className="bg-gray-700 text-white px-10 flex flex-col justify-center">
           <h2 className="text-3xl font-bold mb-4">Prayer Request</h2>
