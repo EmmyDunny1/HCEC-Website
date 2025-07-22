@@ -22,7 +22,7 @@ export default function Homepage() {
      '></div>
 </div>
     <HeroSection/> 
-  <div> 
+  <div className='bg-gradient-to-r  px-10 py-[5rem]'> 
     <UpcomingPrograms />
     <PrayerRequest />
     </div>  

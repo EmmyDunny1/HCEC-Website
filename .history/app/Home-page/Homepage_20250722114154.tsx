@@ -3,7 +3,6 @@ import UpcomingPrograms from './Upcoming-Programs/page'
 
 import Image from 'next/image'
 import PrayerRequest from '../Contact-Us/Prayer-RequestForm/page'
-import HeroSection from '../Hero-Section/page'
 
 
 
@@ -11,7 +10,7 @@ import HeroSection from '../Hero-Section/page'
 
 export default function Homepage() {
   return (
-    <div>
+    <div className='bg-gradient-to-r  px-10 py-[5rem]'>
  <Image src="/assets/HCEC_LOGO.png" width={80} height={48} alt="HCEC Logo" className="h-[3rem] w-[5rem] object-cover mb-5" />
   <p className='bg-gradient-to-r from-red-500 to-[#0C101C] justify-start text-xs md:text-md text-white p-4 my-5 max-w-[20rem] md:max-w-lg rounded-tr-3xl rounded-bl-3xl font-bold mb-[5rem]'>Matt 28:19
     
@@ -21,12 +20,9 @@ export default function Homepage() {
     <div className='absolute h-[10rem] w-[10rem] bg-red-500 mt-[-10rem] hover:transition-transform  hover:translate-y-[10px] hover:translate-x-[-10px]
      '></div>
 </div>
-    <HeroSection/> 
-  <div> 
+<Her
     <UpcomingPrograms />
     <PrayerRequest />
-    </div>  
-    
     </div>
   )
   

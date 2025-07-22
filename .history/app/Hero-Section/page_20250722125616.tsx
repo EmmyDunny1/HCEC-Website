@@ -9,7 +9,7 @@ return (
 </div>
 
 {/* Image Background Section */}
-<div className="relative w-full  h-[25rem] mb-10 overflow-hidden">
+<div className="relative w-full  h-[25rem] mb-10 rounded-md overflow-hidden">
 {/* Background Image */}
 <div
   className=" h-full w-full absolute inset-0 bg-cover bg-center"

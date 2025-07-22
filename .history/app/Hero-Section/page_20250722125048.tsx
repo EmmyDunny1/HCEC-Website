@@ -2,14 +2,14 @@ import React from 'react'
 
 export default function HeroSection() {
 return (
-<div className="flex flex-col items-center  ">
+<div className="flex flex-col items-center p-6 ">
 {/* Top Text Box */}
 <div className="bg-white/90 shadow-md p-4 rounded-md h-[15rem] w-[25rem] mb-[-7.5rem] z-10">
 <p className="text-center font-semibold">For Text</p>
 </div>
 
 {/* Image Background Section */}
-<div className="relative w-full  h-[25rem] mb-10 overflow-hidden">
+<div className="relative w-full max-w-6xl h-[25rem] mb-10 rounded-md overflow-hidden">
 {/* Background Image */}
 <div
   className=" h-full w-full absolute inset-0 bg-cover bg-center"

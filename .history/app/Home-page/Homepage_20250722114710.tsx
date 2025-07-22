@@ -22,7 +22,7 @@ export default function Homepage() {
      '></div>
 </div>
     <HeroSection/> 
-  <div> 
+  <div > 
     <UpcomingPrograms />
     <PrayerRequest />
     </div>  
