@@ -5,7 +5,6 @@ import Image from 'next/image'
 import PrayerRequest from '../Contact-Us/Prayer-RequestForm/page'
 import HeroSection from '../Focus-Section/page'
 import Focus from '../Focus-Section/page'
-import Heropage from './HeroPage/page'
 
 
 
@@ -14,7 +13,7 @@ import Heropage from './HeroPage/page'
 export default function Homepage() {
   return (
     <div>
-<Heropage/>
+<Heropage
 
     <Focus/> 
 
