@@ -23,7 +23,7 @@ export default function Homepage() {
 
    
     <UpcomingPrograms  />
-    <div className='mt-[8rem] lg:mt-[5rem]'>
+    <div className='mt-[8rem]'>
     <PrayerRequest />
     </div>  
     

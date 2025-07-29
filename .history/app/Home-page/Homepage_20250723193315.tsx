@@ -21,9 +21,9 @@ export default function Homepage() {
 
     <Focus/> 
 
-   
+  <div> 
     <UpcomingPrograms  />
-    <div className='mt-[8rem] lg:mt-[5rem]'>
+    
     <PrayerRequest />
     </div>  
     

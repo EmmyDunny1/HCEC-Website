@@ -39,7 +39,7 @@ export default function MissionVision() {
             <div className="md:fixed md:top-7 md:bottom-7 rounded-lg md:right-0 md:w-[400px] flex flex-col items-center justify-center bg-white shadow-lg p-6">
               <div className="w-full h-[300px] relative mb-4 mt-6 rounded-lg overflow-hidden">
                 <Image
-                  src="/assets/Late-Founder.jpg"
+                  src="/assets/ate-founder.jpg"
                   alt="Rev Samson Adebayo Ogundeji"
                   fill
                   style={{ objectFit: "contain", objectPosition: "top" }}

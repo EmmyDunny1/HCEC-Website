@@ -4,7 +4,6 @@ import UpcomingPrograms from './Upcoming-Programs/page'
 import Image from 'next/image'
 import PrayerRequest from '../Contact-Us/Prayer-RequestForm/page'
 import HeroSection from '../Focus-Section/page'
-import Focus from '../Focus-Section/page'
 
 
 
@@ -19,11 +18,10 @@ export default function Homepage() {
     Therefore go and make disciples of all nations, baptizing them in the name of the Father and of the Son and of the Holy Spirit</p>
 
 
-    <Focus/> 
-
-   
-    <UpcomingPrograms  />
-    <div className='mt-[8rem] lg:mt-[5rem]'>
+    </> 
+  <div> 
+    <UpcomingPrograms />
+    
     <PrayerRequest />
     </div>  
     

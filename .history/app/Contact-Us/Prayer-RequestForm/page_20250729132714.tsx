@@ -46,7 +46,7 @@ export default function PrayerRequestForm() {
       <div className="grid grid-cols-1 md:grid-cols-2 bg-black/60 min-h-screen">
 
         {/* Left: Info Section */}
-        <div className="bg-gray-700 text-white p-10 lg:px-20 lg:pb-[7rem] flex flex-col justify-center">
+        <div className="bg-gray-700 text-white p-10 lg:pb-[5rem] flex flex-col justify-center">
           <h2 className="text-3xl font-bold mb-4">Prayer Request</h2>
           <p className="mb-6">
             You can now conveniently submit your prayer requests online, by filling the form or through mail,
@@ -62,7 +62,7 @@ export default function PrayerRequestForm() {
 
         {/* Right: Form Section */}
         <div className="bg-white/90 p-8 flex flex-col justify-center">
-          <h2 className="lg:text-4xl text-3xl font-bold text-gray-700 mb-4">Drop your Prayer Request</h2>
+          <h2 className="lg:text-4xl text-2xl font-bold text-gray-700 mb-4">Drop your Prayer Request</h2>
           <form onSubmit={handleSubmit} className="space-y-4">
             <input name="name" value={formData.name} onChange={handleChange} placeholder="Name" className="w-full p-2 bg-gray-800 text-white" />
             <input name="email" type="email" value={formData.email} onChange={handleChange} placeholder="Email" className="w-full p-2 bg-gray-800 text-white" />
