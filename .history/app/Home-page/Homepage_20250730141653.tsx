@@ -1,7 +1,7 @@
 import React from 'react'
 import UpcomingPrograms from './Upcoming-Programs/page'
 
-
+import Image from 'next/image'
 import PrayerRequest from '../Contact-Us/Prayer-RequestForm/page'
 
 import Focus from '../Focus-Section/page'

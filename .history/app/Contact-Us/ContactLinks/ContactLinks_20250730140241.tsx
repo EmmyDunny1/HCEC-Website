@@ -64,10 +64,10 @@ export default function ContactLinks() {
       >
         <ul className="flex flex-col md:flex-row justify-center items-center gap-4 md:gap-8 mt-2 md:mt-0">
           {contactNavLinks.map((item) => (
-            <li key={item.label} className="w-full md:w-auto text-center border-b-1 border-white">
+            <li key={item.label} className="w-full md:w-auto text-center">
               <Link
                 href={item.link}
-                className={`block text-white font-semibold px-4 py-2  transition 
+                className={`block text-white font-semibold px-4 py-2 rounded-md transition 
                   ${pathname === item.link
                     ? "bg-red-500"
                     : "hover:bg-red-500 hover:text-white"}`}
