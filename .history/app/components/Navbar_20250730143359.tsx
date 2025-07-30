@@ -40,7 +40,7 @@ export default function Navbar({
 
   return (
     <div className="bg-[#0C101C]">
-      <div className="fixed top-0 rounded-b-4xl shadow-gray-600 bg-red-800 flex max-w-7xl w-full mx-auto text-white p-4 transition-all border-b-1  shadow-md hover:border-0 z-50" suppressHydrationWarning>
+      <div className="fixed top-0 rounded-b-4xl shadow-gra bg-red-800 flex max-w-7xl w-full mx-auto text-white p-4 transition-all border-b-1  shadow-sm hover:border-0 z-50" suppressHydrationWarning>
         <section className="flex transition-all my-auto items-center gap-[19.5rem] md:gap-[0rem]">
           <Image src="/assets/HCEC_LOGO.png" width={80} height={48} alt="HCEC Logo" className="h-[3rem] w-[5rem] object-cover" />
           <span className="hidden md:inline font-bold text-lg uppercase ">
