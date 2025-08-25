@@ -19,7 +19,7 @@ type NavbarProps = {
 };
 
 const defaultNavItems: NavItem[] = [
-  { label: "HOME", link: "#", children: [{ label: "Upcoming Events", link: "Home-page/Upcoming-Programs" }, { label: "Prayer Requests", link: "Home-page/Prayer-Request" }] },
+  { label: "HOME", link: "#", children: [{ label: "Upcoming Events", link: "Home-page/Upcoming-Programs" }, { label: "Prayer Requests", link: "Home-page/Prayer-RequestForm" }] },
   { label: "ABOUT US", link: "#", children: [{ label: "Our History", link: "About-Us/our-history" }, { label: "Mission and Vision", link: "About-Us/mission-and-vision" }, { label: "Our Beliefs", link: "About-Us/our-beliefs" }] },
   { label: "MEDIA RESOURCES", link: "#", children: [{ label: "Our Audio & Video Resources", link: "/Media-Resources" },] },
   { label: "CHURCH RESOURCES", link: "#", children: [{ label: "Gospel Hymnal", link: "#" }, { label: "Honey From The Rock", link: "#" }, { label: "Daily Honey", link: "#" }] },
